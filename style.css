@@ -91,3 +91,9 @@ footer{
   padding: 2rem 0;
   margin-top: 2rem;
 }
+@media (max-width:375px) {
+  .masthead a{
+    margin-right: 0 !important;
+    margin-left: 0 !important;
+  }
+}
