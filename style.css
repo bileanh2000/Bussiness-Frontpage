@@ -1,0 +1,93 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.navbar {
+  background-color: #212529 !important;
+}
+.navbar-branch {
+  color: white;
+  text-align: center;
+}
+
+.navbar-branch:hover {
+  color: white;
+  text-decoration: none;
+}
+
+.masthead-content {
+  padding: 7rem 0;
+  background-color: #212529 !important;
+}
+.masthead-content h1 {
+  font-weight: 700;
+  font-size: 3rem;
+}
+.btn-custom {
+  font-size: 1.2rem;
+  padding: 0.5rem 1rem;
+  font-weight: 400;
+}
+.feature h3 {
+  font-weight: 700;
+}
+.feature-icon {
+  display: inline-flex;
+  align-items: center;
+  padding: 1rem;
+  border-radius: 10px;
+}
+
+.feature a:hover {
+  text-decoration: none;
+}
+.payment h2 {
+  display: inline;
+}
+
+[class~="fa-star"] {
+  font-size: 1rem;
+  color: #ffc107;
+}
+[class~="fa-check"] {
+  font-size: 1rem;
+  color: #246efd;
+}
+
+[class~="fa-times"] {
+  font-size: 1rem;
+  color: #7f7f7f;
+}
+
+.card-body p {
+  font-weight: 500;
+  color: rgba(0, 0, 0, 0.7);
+}
+.d-grid {
+  display: grid;
+}
+
+.testimonial-body {
+  display: flex;
+  flex-direction: row;
+}
+.testimonial-icon {
+  margin-top: 10px;
+}
+.form-icon {
+  background-color: #007bff;
+  color: white;
+  display: inline-flex;
+  width: 4rem;
+  height: 4rem;
+  justify-content: center;
+  align-items: center;
+  border-radius: 5px;
+}
+footer{
+  background-color: #212529 !important ;
+  padding: 2rem 0;
+  margin-top: 2rem;
+}
